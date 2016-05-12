@@ -1,0 +1,40 @@
+* {
+  font-family: "Ubuntu"; }
+
+header {
+  background-color: #E0E0E0; }
+  header h1 {
+    text-align: center; }
+
+#todo-area {
+  background-color: #C4284E; }
+  #todo-area #inputBox {
+    font-size: 2em;
+    margin-top: 2%;
+    width: 100%;
+    height: 100px;
+    padding: 1%; }
+  #todo-area #tweetButton {
+    background-color: #337AB7;
+    border-style: none;
+    border-radius: 5px;
+    padding: 6px;
+    color: white;
+    font-size: 15px; }
+  #todo-area #tweets {
+    margin-top: 40px; }
+    #todo-area #tweets .inline {
+      display: inline-block !important; }
+    #todo-area #tweets .tweet {
+      background-color: #E0E0E0;
+      border-radius: 10px;
+      box-sizing: border-box;
+      padding: 10px;
+      width: 100%;
+      border: 1px solid #ccc;
+      margin-bottom: 10px; }
+
+.tacharTask {
+  text-decoration: line-through; }
+
+/*# sourceMappingURL=main.css.map */

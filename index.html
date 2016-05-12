@@ -1,0 +1,33 @@
+<!DOCTYPE html> 
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>TO DO App</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+</head>
+<body>
+   <header>
+       <div class = "container-fluid">
+           <div class = "row">
+               <h1>ToDo App</h1>
+           </div>
+       </div>
+   </header>
+   <section id = "todo-area">
+       <div class = "container">
+           <div class = "row">
+               <div class = "col-md-12">
+                   <textarea id="inputBox"></textarea><br>
+                   <button type="button" id="tweetButton" onclick="tweet()"><i class="fa fa-plus" aria-hidden="true"></i>Añadir tarea</button>
+                   <div id="tweets"></div>
+              </div>
+          </div>
+       </div>
+   </section>
+   
+    <script src="js/main.js"></script>
+</body>
+</html>
